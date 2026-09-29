@@ -59,6 +59,10 @@ frontend_flutter/ios/Flutter/Maps.xcconfig
 frontend_flutter/android/local.properties
 ios/Pods/
 android/.gradle/
+**/google-services.json
+!**/google-services.json.example
+**/GoogleService-Info.plist
+!**/GoogleService-Info.plist.example
 
 # ---- Cloudflare Tunnel ----
 # Credentials grant control of the tunnel. Never commit them.
